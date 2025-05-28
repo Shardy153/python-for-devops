@@ -1,3 +1,7 @@
+#Goal: Connect to a remote server using `paramiko` and execute a shell command.
+#Inputs: IP, username, password/key, command
+#Output: Command output or errors
+
 import paramiko
 
 def ssh_server(hostname, username, command):
